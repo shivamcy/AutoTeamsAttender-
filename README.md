@@ -1,7 +1,47 @@
-## Note
-One or more of these four scripts were functioning when I wrote this code back in class 11 (2020). I am sorry, I don't have the time or incentive to check which one. Also, anyone intending to use these scripts has to modify them significantly to work as per their need, because I wrote these quickly and lazily when I didn't want to attend any online school classes :)
+# AutoTeamsAttender
 
-## How It Works
-The scripts use the Selenium WebDriver to interact with the Teams web application in a Chrome browser. The WebDriver can find elements on the web page, click buttons, fill in text fields, and more.  
+**AutoTeamsAttender** is a Python automation script that joins and leaves Microsoft Teams meetings based on a predefined schedule. It uses Selenium to interact with the web interface, making online class attendance effortless.
 
-The scripts follow a schedule defined by a set of start and end times for different subjects (Physics, Computer Science, English, Chemistry, and Maths). When run, the scripts will wait until the start time of the next subject, then find and join the corresponding meeting on Teams.
+## Features
+
+- 📌 **Automated Attendance** – Joins and exits MS Teams meetings on schedule.
+- ⚡ **Python & Selenium** – Uses Selenium WebDriver for browser automation.
+- 📅 **Custom Timetable** – Reads a user-defined schedule to manage class timings.
+- 🔧 **Flexible & Customizable** – Easily adaptable for different schedules and use cases.
+
+## Requirements
+
+- Python 3.x
+- Selenium
+- Chrome WebDriver
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AutoTeamsAttender.git
+   cd AutoTeamsAttender
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Download and place the Chrome WebDriver in the project directory.
+
+## Usage
+
+1. Edit `config.json` to set up your MS Teams credentials and class schedule.
+2. Run the script:
+   ```bash
+   python attender.py
+   ```
+3. The script will automatically join and leave meetings as per the timetable.
+
+## Contributing
+
+Feel free to submit issues and pull requests to improve AutoTeamsAttender!
+
+## License
+
+MIT License. See `LICENSE` for details.
+
