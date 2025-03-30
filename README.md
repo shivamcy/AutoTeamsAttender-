@@ -41,7 +41,5 @@
 
 Feel free to submit issues and pull requests to improve AutoTeamsAttender!
 
-## License
 
-MIT License. See `LICENSE` for details.
 
